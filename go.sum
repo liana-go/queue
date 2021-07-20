@@ -1,0 +1,4 @@
+github.com/google/uuid v1.2.0 h1:qJYtXnJRWmpe7m/3XlyhrsLrEURqHRM2kxzoxXqyUDs=
+github.com/google/uuid v1.2.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/liana-go/threading v0.0.0-20210719195016-deb44949c10d h1:eys5eQpW69t01dIPYH7lu90B19pkTTmuh9VsCYmdmwg=
+github.com/liana-go/threading v0.0.0-20210719195016-deb44949c10d/go.mod h1:deH6BgmR3aWEpCYHc5zkvSPokaxBj5y9jGbPws5s3/o=
