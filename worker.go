@@ -51,6 +51,7 @@ func (qw *QueueWorker) initWorker() {
 	if qw.worker == nil {
 		qw.worker = &threading.Worker{
 			ThreadCount: 5,
+			JoinThreads: true,
 			Callable: func() {
 				println(true)
 			},

@@ -22,7 +22,7 @@ import (
 
 func main() {
 	var queueComponent queue.QueueInterface
-	var broker queue.BrokerInterface
+	var broker queue.Broker
 
 	queueComponent = queue.New()
 	broker = queue.NewMemoryBroker(10000)
@@ -80,7 +80,7 @@ func main() {
 
 	go publishMessages(queueComponent)
 
-	time.Sleep(20000 * time.Millisecond)
+	time.Sleep(3 * time.Second)
 }
 
 func publishMessages(queueComponent queue.QueueInterface) {
