@@ -1,4 +1,4 @@
-package lika_queue
+package queue
 
 type Broker interface {
 	// Publish Publishing messages

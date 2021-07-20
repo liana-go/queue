@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	queue "github.com/lika_queue"
+	"github.com/liana-go/queue"
 )
 
 func main() {
@@ -65,7 +65,7 @@ package main
 
 import (
 	"fmt"
-	queue "github.com/lika_queue"
+	"github.com/liana-go/queue"
 	"time"
 )
 
@@ -122,7 +122,7 @@ package main
 
 import (
 	"fmt"
-	queue "github.com/lika_queue"
+	"github.com/liana-go/queue"
 )
 
 func main() {
