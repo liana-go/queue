@@ -115,7 +115,7 @@ func consumeMessages(queueComponent queue.QueueInterface, thread int) {
 В пакете есть `QueueWorker` который помогает читать данные из очереди и одновременно работает с базовым воркером из пакета
 [threading](https://github.com/liana-go/threading)
 
-[подробнее о QueueWorker](queue_worker.md)
+[подробнее об аттрибутах QueueWorker](queue_worker.md)
 
 ```go
 package main
@@ -135,7 +135,7 @@ func main() {
 
 	worker = queue.QueueWorker {
 		ThreadCount: 5,
-		IsInfinite: true,
+		IsInfinite: false,
 		QueueName: "testQueue",
 		Broker: queueComponent, // or you can use any broker by calling queueComponent.Broker("mySpecialBroker")
 		Callable: func(message queue.MessageData)  {
